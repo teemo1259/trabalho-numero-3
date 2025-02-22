@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+
+h1 {
+    color: #ff9800;
+
+}
+
+h3 {
+    color: #ff5722;
+}
+
+ul {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+

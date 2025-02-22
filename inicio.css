@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #ff9800;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color: #ff5722;
+    color: white;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+
+
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 992px) {
+    .banner {
+        height: 35vh;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 30vh;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        height: 25vh;
+    }
+
+    
+
+    
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+.nombres{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3;
+}
+
+
+.sobre-nos {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.sobre-nos h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-nos .lead {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.sobre-nos h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.sobre-nos p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.sobre-nos ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sobre-nos ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.sobre-nos ul li strong {
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sobre-nos h1 {
+        font-size: 2rem;
+    }
+
+    .sobre-nos h3 {
+        font-size: 1.6rem;
+    }
+
+    .sobre-nos p, .sobre-nos ul li {
+        font-size: 1rem;
+    }
+}
